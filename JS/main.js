@@ -110,7 +110,7 @@ let diet = [
     {
         nombre: "dieta3",
         text: "Una dieta de definición muscular está basada en reducir el nivel de grasa corporal y acompañarlo de ejercicios para tonificar y definir el cuerpo. Hay que tener presente que obtendremos mejores resultados si acompañamos este plan dietético con deporte, tanto cardio como ejercicios anaeróbicos.",
-        img: "magenes/dieta-volumen.jpg",
+        img: "./Imagenes/dieta-volumen.jpg",
         id: 3,
     },
 ];
