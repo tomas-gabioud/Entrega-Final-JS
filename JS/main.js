@@ -98,19 +98,19 @@ let diet = [
     {
         nombre: "dieta1",
         text: " Una dieta baja en calorías puede ayudar a perder grasa corporal en poco tiempo y ser un útil aliado para un cambio de alimentación de carácter duradero. Una dieta baja en carbohidratos es adecuada para cualquier persona que quiera perder grasa corporal y definir los músculos. ",
-        img: "../Imagenes/comida-bc.jpg",
+        img: "./Imagenes/comida-bc.jpg",
         id: 1,
     },
     {
         nombre: "dieta2",
         text: "Las dietas hipercalóricas son aquellas que contienen un aporte energético mayor del que necesita un individuo. No sólo es una dieta alta en calorías que permite lograr un aumento de peso, además se mejora la calidad y la cantidad de lo que se come.",
-        img: "../Imagenes/comida-ac.jpg",
+        img: "./Imagenes/comida-ac.jpg",
         id: 2,
     },
     {
         nombre: "dieta3",
         text: "Una dieta de definición muscular está basada en reducir el nivel de grasa corporal y acompañarlo de ejercicios para tonificar y definir el cuerpo. Hay que tener presente que obtendremos mejores resultados si acompañamos este plan dietético con deporte, tanto cardio como ejercicios anaeróbicos.",
-        img: "../Imagenes/dieta-volumen.jpg",
+        img: "magenes/dieta-volumen.jpg",
         id: 3,
     },
 ];
