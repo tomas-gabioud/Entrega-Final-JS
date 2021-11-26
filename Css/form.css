@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgb(6, 179, 185),rgb(160, 207, 31));
+}
+
+
+/* header + nav */
+
+header{
+    height: 20vh;
+}
+
+.h1Move{
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+.logo{
+    width: 100px;
+}
+
+.imp{
+    font-size: 2vw;
+    color: rgb(3, 0, 0);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.boxNav{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxNav ul{
+    list-style: none;
+}
+
+.boxNav ul li{
+    display: inline-block;
+}
+.boxNav ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 25px 60px;
+    text-decoration: none;
+}
+
+.boxNav ul li a:hover{
+    color: rgb(6, 179, 185);
+    border: 1px solid blueviolet;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Formulario de consulta */
+
+.form-titulo{
+    text-align: center;
+	padding: 15px 5px;
+}
+
+.form-container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 500px;
+	height: 75vh;
+	max-width: 100%;
+	position: relative;
+	top: 80px;
+	margin: 100px auto;
+}
+
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-datos {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-datos label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-datos input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-datos input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-datos.success input {
+	border-color: #2ecc71;
+}
+
+.form-datos.error input {
+	border-color: #e74c3c;
+}
+
+.form-datos i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-datos.success i.fa-check-circle {
+	color: #31ad65;
+	visibility: visible;
+}
+
+.form-datos.error i.fa-exclamation-circle {
+	color: #ff1900;
+	visibility: visible;
+}
+
+.form-datos small {
+	color: #ff1900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-datos.error small {
+	visibility: visible;
+}
+
+.boton-form{
+	background-color: #44ddc9;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.boton-form:hover{
+	background-color: black;
+	color: rgb(6, 179, 185);
+}
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 99,8vw;
+    height: 25vh;
+	display: flex;
+}
+
+
+.titulo{
+    font-size: 25px;
+    color: white;
+	padding: 5px;
+}
+
+.titulo .Redes-sociales{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: normal;
+    text-decoration: none;
+}
+.titulo .Redes-sociales:hover{
+    color: rgb(216, 134, 27);
+}
+
+.items{
+    list-style-type: none;
+}
+
+.items i{
+    color: rgb(255, 255, 255);
+}
+
+.fab{
+    font-size: 2rem;
+    margin: 7px;
+}
+
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+.fa-facebook-f:hover{
+    color:#3b5998;
+}
+.fa-twitter:hover{
+    color: rgb(0,172,237);
+}
+.fa-instagram:hover{
+    color: #2378be;
+}
+
+.boxObj{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.obj{
+    color: rgb(255, 255, 255);
+}
+
+.objP{
+    color: rgb(88, 206, 77);
+}
+
+
+.buttonFooter{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 15px 20px;
+}
+#redireccionar{
+    width: 100%;
+    height: 20%;
+    border-radius: 25px ;
+    background-color: rgb(88, 206, 77);
+}
+#redireccionar:hover{
+
+    background-color: rgb(0, 0, 0);
+}
+
+.linkFooter{
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.linkFooter:hover{
+    color:rgb(224, 80, 80);
+}

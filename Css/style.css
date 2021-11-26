@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgb(6, 179, 185),rgb(160, 207, 31));
+}
+
+
+/* header + nav */
+
+header{
+    height: 20vh;
+}
+
+.h1Move{
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+.logo{
+    width: 100px;
+}
+
+.imp{
+    font-size: 2vw;
+    color: rgb(3, 0, 0);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.boxNav{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* lista de navegación */
+
+.boxNav ul{
+    list-style: none;
+}
+
+.boxNav ul li{
+    display: inline-block;
+}
+.boxNav ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 25px 60px;
+    text-decoration: none;
+}
+
+.boxNav ul li a:hover{
+    color: rgb(6, 179, 185);
+    border: 1px solid blueviolet;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Main h2 */
+
+.infoIngresada{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+/* Calculadora Form */
+
+
+
+#form{
+    display: block;
+    text-align: center;
+    margin: 5vw auto;
+}
+
+.inputs{
+    width: 20vw;
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid white;
+    padding: 14px 10px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    margin: 20px auto;
+}
+.inputs:focus{
+    width: 20vw;
+    border-color: blueviolet;
+    background: black;
+}
+.inputs::placeholder{
+    color: white;
+}
+
+
+
+
+/* Resultado de la calculadora  */
+#resp{
+    color: white;
+    margin: 5px;
+}
+
+#enviar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20vw;
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid white;
+    padding: 14px 10px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    margin: 0 auto;
+}
+
+#enviar:hover{
+    border-color: blueviolet;
+    background: black;
+}
+
+
+/* Seccion de Dietas */
+
+.dietasGenerales{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 80vh;
+    display: flex;
+}
+
+.tituloDietas{
+    color: rgb(255, 255, 255);
+    display: block;
+    position: relative;
+    left: 135%;
+}
+
+
+.img{
+    width: 400px;
+    height: 255px;
+    margin: 25px;
+    border-radius: 20px;
+    position: relative;
+    right: 200px;
+}
+
+
+.text{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20vw;
+    border: 0;
+    background: none;
+    border: 2px solid white;
+    padding: 14px 10px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    position: relative;
+    right: 160px;
+    top: 50px;
+}
+
+.boxImg{
+    height: 400px;
+    height: 255px;
+    position: relative;
+    top: 150px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 99,8vw;
+    height: 25vh;
+    display: flex;
+}
+
+
+.titulo{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+
+}
+
+/* Redes sociales  */
+.titulo .Redes-sociales{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: normal;
+    text-decoration: none;
+}
+.titulo .Redes-sociales:hover{
+    color: rgb(216, 134, 27);
+}
+
+.items{
+    list-style-type: none;
+}
+
+.items i{
+    color: rgb(255, 255, 255);
+}
+
+.fab{
+    font-size: 2rem;
+    margin: 7px;
+}
+
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+.fa-facebook-f:hover{
+    color:#3b5998;
+}
+.fa-twitter:hover{
+    color: rgb(0,172,237);
+}
+.fa-instagram:hover{
+    color: #2378be;
+}
+
+/* Objetivos + redireccionamiento al Form */
+.boxObj{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.obj{
+    color: rgb(255, 255, 255);
+}
+
+.objP{
+    color: rgb(88, 206, 77);
+}
+
+
+.buttonFooter{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 15px 20px;
+}
+#redireccionar{
+    width: 100%;
+    height: 20%;
+    border-radius: 25px ;
+    background-color: rgb(88, 206, 77);
+}
+#redireccionar:hover{
+
+    background-color: rgb(0, 0, 0);
+}
+
+.linkFooter{
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.linkFooter:hover{
+    color:rgb(224, 80, 80);
+}
+
+
+
+
+
+
+

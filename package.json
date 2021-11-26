@@ -1,0 +1,10 @@
+{
+  "homepage": "https://tomas-gabioud.github.io/proyecto-js",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

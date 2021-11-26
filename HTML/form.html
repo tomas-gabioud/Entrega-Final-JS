@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/form.css">
+    <script src="https://kit.fontawesome.com/d7c3558388.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- Logo + Nombre de la Pagina  -->  
+            <div class="h1Move">
+                <a href="../index.html"><img class="logo" src="/Imagenes/piramide-logo.jpg" alt=""></a>
+                <h1 class="imp">Información Saludable</h1>
+            </div>
+        <!-- Navegación de la pagina -->
+        <div class="boxNav">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="../index.html">  Home </a></li>
+                    <li><a href="../HTML/info.html"> Informacion Adicional </a></li>
+                    <li><a href="../HTML/form.html"> Formulario de contacto </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="form-container" >
+    <h2 class="form-titulo">Pedir turno</h2>
+        <form id="form-consulta" class="form">
+            <div class="form-datos">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-datos">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Ingresa tu email @" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div>
+                <textarea name="" id="" cols="55" rows="20"></textarea>
+            </div>
+            <button class="boton-form">Enviar</button>
+        </form>
+</div>
+        <!-- Footer -->
+        <footer class="piePagina">
+            <div class="piePaginaDiv">
+                <ol class="titulo">Buscanos en nuestras Redes Sociales : <span class="typed"></span> </ol>
+                    <li class="items"><a href="https://www.whatsapp.com/?lang=es"><i  class="fab fa-whatsapp"></i></a></li>
+                    <li class="items"><a href="https://www.facebook.com/"><i  class="fab fa-facebook-f"></i></a></li>
+                    <li class="items"><a href="https://twitter.com/?lang=es"><i  class="fab fa-twitter"></i></a></li>
+                    <li class="items"><a href="https://www.instagram.com/"><i  class="fab fa-instagram"></i></a></li>
+            </div>
+            <div class="boxObj">
+                <h4 class="obj">Nuestras Metas<p class="objP">Es acompañar al usuario en la seleccion de comidas saludables, en función del cambio que busca para su cuerpo.</p></h4>
+            </div>
+            <div class="buttonFooter">
+                <button id="redireccionar" ><a class="linkFooter" href="form.html"> Click aquí para realizar una consulta</a></button>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="../JS/app.js"></script>
+        <script src="../JS/main.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
