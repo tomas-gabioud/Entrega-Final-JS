@@ -30,9 +30,9 @@
         <!-- Calculadora Saludable -->
         <div id="div-container">
             <form  id="form"  > <h2 class="infoIngresada"> A continuación ingresa los siguientes datos para saber tu índice de masa muscular :</h2>
-                <input type="text" id="nombre" class="inputs" placeholder=" Escribe tu Nombre...">
+                <input type="text" pattern="[a-zA-Z]*" id="nombre" class="inputs" placeholder=" Escribe tu Nombre...">
                 <input type="number" id="edad" class="inputs" placeholder=" Escribe tu  Edad..." required>
-                <input type="text" id="sexo" class="inputs" placeholder=" Elige tu sexo: M-F-Otros... " required>
+                <input type="text" pattern="[a-zA-Z]*" id="sexo" class="inputs" placeholder=" Elige tu sexo: M-F-Otros... " required>
                 <input type="number" id="kg" class="inputs" placeholder=" Ingresa tu peso en kg enteros ejemplo : 75 ... " required>
                 <input type="number" step=".01" id="cm" class="inputs" placeholder="Ingresa tu altura en metros por ejemplo : 1.80..." required>
                 <input type="number" id="hsE" class="inputs" placeholder="Ingresa cuantas horas entrenas a la semana...">
